@@ -37,12 +37,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://masterwordpress.com">My New Hugo Site</a>
+            <a class="navbar-brand" href="/">My New Hugo Site</a>
           </div>
 
           <div id="navbar" class="collapse navbar-collapse">
             
             <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/about/">about</a></li>
+              
               
               
               <li><a href="/post/post-demo/">post demo</a></li>
@@ -111,8 +115,21 @@
       
       <article class="li">
   <header>
+    <div class="date">Sun, Feb 28, 2016</div>
+    <div class="title"><a href="/post/post-demo/">post demo</a></div>
+  </header>
+  <div class="body"><p>Hello world!</p>
+</div>
+
+  
+</article>
+<hr>
+
+      
+      <article class="li">
+  <header>
     <div class="date">Sat, Feb 27, 2016</div>
-    <div class="title"><a href="http://masterwordpress.com/post/welcome2/">welcome2</a></div>
+    <div class="title"><a href="/post/welcome2/">welcome2</a></div>
   </header>
   <div class="body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
@@ -125,7 +142,7 @@
       <article class="li">
   <header>
     <div class="date">Sat, Feb 27, 2016</div>
-    <div class="title"><a href="http://masterwordpress.com/post/welcome/">welcome</a></div>
+    <div class="title"><a href="/post/welcome/">welcome</a></div>
   </header>
   <div class="body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
@@ -163,15 +180,15 @@
     </div>
     <div class="list-group">
       
-      <a href="http://masterwordpress.com/post/post-demo10/" class="list-group-item">post demo10</a>
+      <a href="/about/" class="list-group-item">about</a>
       
-      <a href="http://masterwordpress.com/post/post-demo9/" class="list-group-item">post demo9</a>
+      <a href="/post/post-demo10/" class="list-group-item">post demo10</a>
       
-      <a href="http://masterwordpress.com/post/post-demo8/" class="list-group-item">post demo8</a>
+      <a href="/post/post-demo9/" class="list-group-item">post demo9</a>
       
-      <a href="http://masterwordpress.com/post/post-demo7/" class="list-group-item">post demo7</a>
+      <a href="/post/post-demo8/" class="list-group-item">post demo8</a>
       
-      <a href="http://masterwordpress.com/post/post-demo6/" class="list-group-item">post demo6</a>
+      <a href="/post/post-demo7/" class="list-group-item">post demo7</a>
       
     </div>
   </div>
@@ -184,9 +201,9 @@
     </div>
     <div class="list-group">
       
-      <a href="http://masterwordpress.com/categories/development" class="list-group-item">development - 11</a>
+      <a href="/categories/development" class="list-group-item">development - 12</a>
       
-      <a href="http://masterwordpress.com/categories/golang" class="list-group-item">golang - 8</a>
+      <a href="/categories/golang" class="list-group-item">golang - 9</a>
       
     </div>
   </div>
@@ -198,11 +215,11 @@
     </div>
     <div class="list-group">
       
-      <a href="http://masterwordpress.com/tags/golang" class="list-group-item">golang - 8</a>
+      <a href="/tags/development" class="list-group-item">development - 9</a>
       
-      <a href="http://masterwordpress.com/tags/development" class="list-group-item">development - 8</a>
+      <a href="/tags/golang" class="list-group-item">golang - 9</a>
       
-      <a href="http://masterwordpress.com/tags/test" class="list-group-item">test - 1</a>
+      <a href="/tags/test" class="list-group-item">test - 1</a>
       
     </div>
   </div>
@@ -225,18 +242,18 @@
     <div>development</div>
     <ul>
         
-        <li>post demo9</li>
+        <li>about</li>
         
-        <li>post demo8</li>
+        <li>post demo9</li>
         
     </ul>
     
     <div>golang</div>
     <ul>
         
-        <li>post demo10</li>
+        <li>about</li>
         
-        <li>post demo7</li>
+        <li>post demo10</li>
         
     </ul>
     
@@ -263,11 +280,10 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
-    <script data-no-instant src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script data-no-instant src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-    <script src="http://masterwordpress.com/js/instantclick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script  src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script src="/js/instantclick.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-
     <script data-no-instant>InstantClick.init();</script>
       <script data-no-instant>
           InstantClick.on('change', function(){
